@@ -27,7 +27,7 @@ const Book = () => {
 }
 
 const Image = () => {
-    return <img src="./images/guy.jpg" alt="" />
+    return <img src="./images/pro.jpg" alt="" />
 }
 
 const Title = () => {
