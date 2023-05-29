@@ -4,7 +4,7 @@ import ReactDom from 'react-dom/client';
 const BookList = () => {
   return (
     <section>
-        <BookList />
+        <Book />
     </section>
   )
 }
