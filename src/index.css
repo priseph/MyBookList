@@ -24,6 +24,7 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
 
 .book img {
@@ -43,14 +44,15 @@ body {
   letter-spacing: 2px;
 }
 
-number {
+.number {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 1rem;
   padding: 0.75rem;
   border-top: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   background-color: #c35600;
   color: #fff;
 }
