@@ -31,17 +31,21 @@ const Books = [
 const BookList = () => {
   return (
     <section className="booklist">
-      {Books.map((bookItem) => {
-        const {img, title, author, id} = bookItem
-        return (
-          <div className="book" key= {id}>
-            <img src={img} />
-            <h2>{title}</h2>
-            <h4>{author}</h4>
-          </div>
-        )
+      {Books.map((bookItems) => {
+        return <Book {...bookItems} key={bookItems.id} />
       })}
     </section>
+  )
+}
+
+const Book = (props) => {
+  const { img, title, author, id } = props
+  return (
+    <article className="book">
+      <img src={img} alt={title} />
+      <h2>{title}</h2>
+      <h4>{author}</h4>
+    </article>
   )
 }
 
