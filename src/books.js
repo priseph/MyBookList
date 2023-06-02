@@ -1,29 +1,31 @@
-import img1 from './images/pro.jpg'
-import img2 from './images/guy.jpg'
+import img1 from './images/the-innovators.jpg'
+import img2 from './images/lean-startup.png'
+import img3 from './images/steve-job.jpg'
+import img4 from './images/Amazon-Unbound.jpg'
 
 export const Books = [
   {
-    title: 'Book 1 Title',
-    author: 'Author 1',
+    title: 'The Innovators',
+    author: 'Walter Isaacson',
     img: img1,
     id: 1,
   },
   {
-    title: 'Book 2 Title',
-    author: 'Author 2',
+    title: 'The Lean Startup',
+    author: 'Eric Ries',
     img: img2,
     id: 2,
   },
   {
-    title: 'Book 3 Title',
-    author: 'Author 3',
-    img: img1,
+    title: 'Steve Jobs',
+    author: 'Walter Isaacson ',
+    img: img3,
     id: 3,
   },
   {
-    title: 'Book 4 Title',
-    author: 'Author 4',
-    img: img2,
+    title: 'Amazon Unbound',
+    author: 'Brad Stone',
+    img: img4,
     id: 4,
   },
 ]
